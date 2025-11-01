@@ -7,6 +7,15 @@
 const path = require('path');
 const _ = require('lodash');
 
+// ✅ Fixed: Avoid conflict with built-in GraphQL Date scalar
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    scalar CustomDate
+  `;
+  createTypes(typeDefs);
+};
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);

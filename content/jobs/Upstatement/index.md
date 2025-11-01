@@ -1,13 +1,15 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
+date: '2022-05-14'
+title: 'DevOps Engineer'
 company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
+location: 'Bhubaneswar, IND'
+range: 'May 2022 - Present'
 url: 'https://www.upstatement.com/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Engineered and maintained **fully automated CI/CD pipelines** to streamline development, testing, and deployment workflows using modern DevOps tools and best practices.
+- Designed and implemented **containerized applications** with **Docker** and orchestrated scalable microservices using **Azure Kubernetes Service (AKS)**.
+- Managed infrastructure automation and configuration through **Terraform** and **Ansible**, ensuring consistency and reliability across environments.
+- Monitored and optimized system performance, improving deployment speed and reducing downtime for critical applications.
+- Collaborated with developers and cloud teams to establish secure, efficient, and repeatable **DevOps workflows**.
+- Focused on optimizing cloud cost efficiency and ensuring high availability across environments.
