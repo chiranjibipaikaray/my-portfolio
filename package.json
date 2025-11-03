@@ -1,16 +1,15 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Personal Website V1",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "chiranjibi paikaray <chiranjibipaikaray3@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/chiranjibipaikaray/my-portfolio.git"
   },
   "keywords": [
     "gatsby"
-  ],
-  "license": "MIT",
+  ], 
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
