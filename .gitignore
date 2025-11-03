@@ -1,9 +1,11 @@
 # Ignore everything by default
 *
 
-# Allow these folders/files
-!public/
+# Allow these folders/files 
 !Dockerfile 
 !.gitignore 
 !.github/
 !.github/workflows/ 
+# Force include the public folder
+!public/
+!public/**
